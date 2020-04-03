@@ -1,0 +1,5 @@
+{
+    "gopls" : {
+    "experimentalDisabledAnalyses": ["ST1001"],
+    },
+}
