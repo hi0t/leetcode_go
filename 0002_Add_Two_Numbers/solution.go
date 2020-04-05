@@ -1,18 +1,8 @@
-package main
+package solution
 
 import (
-	"fmt"
 	. "leetcode/util"
 )
-
-func main() {
-	l1 := NewListNode(2, 4, 3)
-	l2 := NewListNode(5, 6, 4)
-
-	res := addTwoNumbers(l1, l2)
-
-	fmt.Println(res)
-}
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	var res, curr *ListNode

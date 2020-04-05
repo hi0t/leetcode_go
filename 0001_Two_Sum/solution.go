@@ -1,15 +1,4 @@
-package main
-
-import "fmt"
-
-func main() {
-	nums := []int{2, 7, 11, 15}
-	target := 9
-
-	res := twoSum(nums, target)
-
-	fmt.Println(res)
-}
+package solution
 
 func twoSum(nums []int, target int) []int {
 	idx := make(map[int]int)
