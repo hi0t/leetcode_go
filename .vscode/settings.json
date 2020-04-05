@@ -2,5 +2,10 @@
     "gopls" : {
         "experimentalDisabledAnalyses": ["ST1000", "ST1001"],
     },
-    "go.testFlags": ["-v", "-count=1"]
+    "go.testFlags": ["-v", "-count=1"],
+    "go.delveConfig": {
+        "dlvLoadConfig": {
+            "maxArrayValues": 128
+        }
+    }
 }
