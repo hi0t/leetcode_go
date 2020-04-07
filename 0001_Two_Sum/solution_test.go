@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_0001_Two_Sum(t *testing.T) {
+func TestSolution(t *testing.T) {
 	nums := []int{2, 7, 11, 15}
 	target := 9
 

@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_0002_Add_Two_Numbers(t *testing.T) {
+func TestSolution(t *testing.T) {
 	l1 := util.NewListNode(2, 4, 3)
 	l2 := util.NewListNode(5, 6, 4)
 
