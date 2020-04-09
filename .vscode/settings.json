@@ -1,6 +1,6 @@
 {
     "gopls" : {
-        "experimentalDisabledAnalyses": ["ST1000", "ST1001"],
+        "analyses": {"ST1000": false, "ST1001": false},
     },
     "go.testFlags": ["-v", "-count=1"],
     "go.delveConfig": {
